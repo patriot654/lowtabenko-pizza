@@ -14,14 +14,14 @@
 		flex-direction:column;
 		padding: 0;
 		margin: 0;
-	}
+}
 	.ma  {
 		display:flex; 
 		align-items:center; 
 		justify-content:center;
 		padding: 0;
 		margin: 0;
-	}
+}
 	.ppb {
 		border: 2px solid white;
 		overflow: auto;
@@ -33,53 +33,55 @@
 		left: 50px;
 		position: relative;
 		z-index: 1;
-	}
+}
 	.ppb h2{
 		font-size: 35px;
 		font-family:cursive;
 		color: green;	
-	}
+}
 
 	.ppb p{
 		font-size: 20px;
 		font-family: cursive;
 		color: white;	
-	}
+}
 	button{
 		font-size: 17px;
 		color: black;
 		background-color: red;
 		border-radius: 15px;
 		cursor: pointer;
-	}
+}
 	button:hover{
 		transform: scale(1.05);
-	}
+}
 	img{
 		width: 600px;
 		left: 15px;
 		position: relative;
-		z-index: 2;
 		padding: 0;
 		margin: 0;
-	}
+		z-index: 2;
+}
 	.bb {
 		left: 100px;
 		width: 650px;
-	}
+}
 	.ha {
-		left: 75px;
-	}
+		position: relative;
+		margin-right: -60px;
+		z-index: 2;
+}
 	.pe  {
 		margin-right: 100px;
-		width: 650px
+		width: 650px;
 		position: relative;
 		z-index: 2;
-	}
+}
 	.sw  {
 		left: 75px;
 		width: 610px;
-	}
+}
 	.lol  {
 		position: relative;
 		width: 100%;
@@ -87,12 +89,12 @@
 		align-items:center; 
 		justify-content: center;
 		flex-direction: row;
-	}
+}
 	.lol img  {
 		position: absolute;
 		margin-right: 400px;
 		
-	}
+}
 	.lol h1  {
 		position: relative;
 		margin-left: 1000px;
@@ -103,117 +105,126 @@
 		padding: 3px 0 0 0;
 		margin: 0;
 		z-index: 3;
-	}
+}
 	.bacon   {
 		height: 720px;
 		width: 450px;
 		bottom: 100px;
 		display: block;
 		margin-top: 110px;
-	}
+}
 	.paprika   {
-		height: 700px;
-		width: 500px;
+		height: 600px;
+		width: 540px;
 		left: 65px;
-	}
+}
 	.lowtab   {
    	 	position: relative;
     		left: -10px;
 		height: 600px;
   	 	width: 580px;
-	}
+}
 	.hawaii-block {
  		 position: relative;
  		 left: 100px; 
 		 display: flex;
  		 align-items: center;
  		 justify-content: center;
-		  gap: 30px; /* відстань між картинками і текстом */
-	}
+}
+	.ananas {
+		position: relative;
+		margin-left: -60px;
+		z-index: 2;
+}
+	.pep {
+		position: relative;
+		margin-right: -100px;
+		z-index: 2;
+}
 </style>
 </head>
 </body>
 	<div class="lol">
-		<img src="tomato.png">
-		<h1>Lowtab Pizza</h1>
-	</div>
-	<div class="ma">
-	<div class="ppb">
-	<h2>PIZZA MARGARITA</h2>
-		<p>Ingredients: tomato sauce, mozzarella, fresh</p>
-		<p>tomatoes, oregano, basil.</p>
-		<p>Description: A true Italian classic — light, flavorful, and fresh,</p>
-		<p>with melted cheese and the aroma of basil in every bite.</p> 		
-		<p><b>Price: 15$</b> size: 30cm</p>
-		<p><button>add to cart</button></p>
-	</div>
-		<p><img src="margarita.png"></p>
-	</div>
-	<div class="ma">
-	<p><img src="bbq.png" class="bb"></p>
-	<div class="ppb">
-	<h2>PIZZA BBQ CHICKEN</h2>
-		<p>Ingredients: BBQ sauce, chicken fillet, mozzarella, red onion, parsley</p>
-		<p>tomatoes, oregano, basil.</p>
-		<p>Description:Smoky BBQ flavor meets tender chicken and juicy onion</p>
-		<P> — a rich, hearty choice for lovers of bold taste.</p>
-		<p><b>Price: 20$</b> size: 30cm</p>
-		<p><button>add to cart</button></p>
-	</div>
-		<img class="bacon" src="bacon.png">
-	</div>
-	<div class="ma">
-	<img class="paprika" src="paprika.png">
-	<div class="ppb">
-	<h2>PIZZA LOWTABENKO</h2>
-		<p>Ingredients: tomato sauce, mozzarella, sausage, chicken, mushrooms,</p>
-		<p> black olives, red onion, green bell pepper, tomatoes.</p>
-		<p>Description: The ultimate flavor explosion — a loaded pizza packed with meats,</p>
-		<p>veggies, and melted cheese for those who want everything in one bite.</p>
-		<p><b>Price: 30$</b> size: 30cm</p>
-		<p><button>add to cart</button></p>
-	</div>
-		<img src="lowtab.png" class="lowtab">
-	</div>
-	<div class="ma">
-  <div class="hawaii-block">
-    <img src="hawaii.png" class="ha">
-    <div class="ppb">
-      <h2>PIZZA HAWAII</h2>
-      <p>Ingredients: tomato sauce, ham, pineapple, mozzarella.</p>
-      <p>Description: The perfect sweet-and-savory combo of juicy</p>
-      <p>pineapple and savory ham — a tropical twist on traditional pizza.</p>
-      <p><b>Price: 25$</b> size: 30cm</p>
-      <p><button>add to cart</button></p>
-    </div>
-    <p style="right: 1000px;"><img src="ananas.png"></p>
-  </div>
+			<img src="tomato.png">
+			<h1>Lowtab Pizza</h1>
 </div>
 	<div class="ma">
-		<p><img src="listiki.png" class="pep"></p>
-	<div class="ppb" style="left: 85px;">
-	<h2>PIZZA PEPPERONI</h2>
-		<p>Ingredients: tomato sauce, mozzarella, pepperoni, oregano.</p>
-		<p>Description: Spicy, cheesy, and full of flavor — </p>
-		<p>a timeless favorite for meat lovers.</p>
-		<p><b>Price: 25$</b> size: 30cm</p>
-		<p><button>add to cart</button></p>
-	</div>
-		<p><img src="peperoni.png" class="pe"></p>
-	</div>
-	<div class="ma">
-		<p style="left:500px;"><img src="sweet.png" class="sw"></p>	
 	<div class="ppb">
-	<h2>PIZZA SWEAT DREEM</h2>
-		<p>Ingredients: Nutella, fresh strawberries, powdered sugar, mint.</p>
-		<p>Description: A dessert lover’s dream — warm pizza crust covered</p>
-		<p>with creamy Nutella, juicy strawberries, and a touch of sweetness</p> 
-		<p>that melts in your mouth.</p>
-		<p><b>Price: 20$</b> size: 30cm</p>
-		<p><button>add to cart</button></p>
-	</div>
-		<p><img src="klubnika.png" class="swe"></p>
-	</div>
+			<h2>PIZZA MARGARITA</h2>
+			<p>Ingredients: tomato sauce, mozzarella, fresh</p>
+			<p>tomatoes, oregano, basil.</p>
+			<p>Description: A true Italian classic — light, flavorful, and fresh,</p>
+			<p>with melted cheese and the aroma of basil in every bite.</p> 		
+			<p><b>Price: 15$</b> size: 30cm</p>
+			<p><button>add to cart</button></p>
+</div>
+			<p><img src="margarita.png"></p>
+</div>
+	<div class="ma">
+			<p><img src="bbq.png" class="bb"></p>
+	<div class="ppb">
+			<h2>PIZZA BBQ CHICKEN</h2>
+			<p>Ingredients: BBQ sauce, chicken fillet, mozzarella, red onion, parsley</p>
+			<p>tomatoes, oregano, basil.</p>
+			<p>Description:Smoky BBQ flavor meets tender chicken and juicy onion</p>
+			<P> — a rich, hearty choice for lovers of bold taste.</p>
+			<p><b>Price: 20$</b> size: 30cm</p>
+			<p><button>add to cart</button></p>
+</div>
+			<img class="bacon" src="bacon.png">
+</div>
+	<div class="ma">
+			<img class="paprika" src="paprika.png">
+	<div class="ppb">
+			<h2>PIZZA LOWTABENKO</h2>
+			<p>Ingredients: tomato sauce, mozzarella, sausage, chicken, mushrooms,</p>
+			<p> black olives, red onion, green bell pepper, tomatoes.</p>
+			<p>Description: The ultimate flavor explosion — a loaded pizza packed with meats,</p>
+			<p>veggies, and melted cheese for those who want everything in one bite.</p>
+			<p><b>Price: 30$</b> size: 30cm</p>
+			<p><button>add to cart</button></p>
+</div>
+			<img src="lowtab.png" class="lowtab">
+</div>
+	<div class="ma">
+ 	<div class="hawaii-block">
+    			<img src="hawaii.png" style="margin-left: -100px;" class="ha">
+	<div class="ppb">
+      			<h2>PIZZA HAWAII</h2>
+      			<p>Ingredients: tomato sauce, ham, pineapple, mozzarella.</p>
+      			<p>Description: The perfect sweet-and-savory combo of juicy</p>
+      			<p>pineapple and savory ham — a tropical twist on traditional pizza.</p>
+     			<p><b>Price: 25$</b> size: 30cm</p>
+      			<p><button>add to cart</button></p>
+</div>
+    			<img src="ananas.png" class="ananas" style=" margin-left: -50px;">
+</div>
+</div>
+	<div class="ma">
+			<p><img src="listiki.png" class="pep"></p>
+	<div class="ppb" style="left: 85px;">
+			<h2>PIZZA PEPPERONI</h2>
+			<p>Ingredients: tomato sauce, mozzarella, pepperoni, oregano.</p>
+			<p>Description: Spicy, cheesy, and full of flavor — </p>
+			<p>a timeless favorite for meat lovers.</p>
+			<p><b>Price: 25$</b> size: 30cm</p>
+			<p><button>add to cart</button></p>
+</div>
+			<p><img src="peperoni.png" class="pe"></p>
+</div>
+	<div class="ma">
+			<p style="left:500px;"><img src="sweet.png" class="sw"></p>	
+	<div class="ppb">
+			<h2>PIZZA SWEAT DREEM</h2>
+			<p>Ingredients: Nutella, fresh strawberries, powdered sugar, mint.</p>
+			<p>Description: A dessert lover’s dream — warm pizza crust covered</p>
+			<p>with creamy Nutella, juicy strawberries, and a touch of sweetness</p> 
+			<p>that melts in your mouth.</p>
+			<p><b>Price: 20$</b> size: 30cm</p>
+			<p><button>add to cart</button></p>
+</div>
+			<p><img src="klubnika.png" class="swe"></p>
+</div>
 
 
 	
